@@ -1,0 +1,51 @@
+name: murobi_beta
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  auto_size_text: ^3.0.0
+  collection: ^1.18.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+  from_css_color: ^2.0.0
+  get: ^4.6.6
+  go_router: ^14.2.0
+  google_fonts: ^6.2.1
+  http: ^1.2.1
+  internet_connection_checker_plus: ^2.4.2
+  intl: ^0.19.0
+  json_path: ^0.7.2
+  page_transition: ^2.1.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  timeago: ^3.6.1
+  url_launcher: ^6.3.0 
+  webview_flutter: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  - assets/fonts/
+  - assets/images/
+  - assets/images/SplashScreen.png
+  - assets/images/image-2.png
+  - assets/images/image-1.png
+  - assets/images/moon3.png
+  - assets/images/qurban.png
+  - assets/images/cow.svg
+  fonts:
+  - family: LexendCustom
+    fonts:
+      - asset: assets/fonts/Lexend-Medium.ttf
